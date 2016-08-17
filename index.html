@@ -15,6 +15,8 @@
     <link rel="icon" href="img/icon.png">
   </head>
   <body class="theme-red">
+	
+	
     <div class="statusbar-overlay"></div>
     <div class="panel-overlay"></div>
     <div class="panel panel-left panel-cover">
@@ -30,7 +32,7 @@
 			
 				<div class="card ks-facebook-card">
 				<div class="card-header no-border">
-				<div class="ks-facebook-avatar"><img src="img/person1.jpg" width="34" height="34"/></div>
+				<div class="ks-facebook-avatar"><div class="item-media"><img src="img/person1.jpg" width="40"></div></div>
 				<div class="ks-facebook-name">Paul Iglot</div>
 				<div class="ks-facebook-date">@pauliglot</div>
 				</div>
@@ -39,56 +41,56 @@
                 <ul>
                   <li><a href="index.html" class="item-link close-panel">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
+					  <!--<div class="item-media"><img src="img/person1.jpg" width="40"></div>-->
                         <div class="item-inner">
                           <div class="item-title">Home</div>
                         </div>
                       </div></a></li>
-                  <li><a href="pages/profile.html" class="item-link close-panel">
+                  <li><a href="profile.html" class="item-link close-panel">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <!--<div class="item-media"><i class="icon ks-icon-like"></i></div>-->
                         <div class="item-inner">
                           <div class="item-title">Profile</div>
                         </div>
                       </div></a></li>
                   <li><a href="pages/posts.html" class="item-link close-panel">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <!--<div class="item-media"><i class="icon icon-f7"></i></div>-->
                         <div class="item-inner">
                           <div class="item-title">Posts</div>
                         </div>
                       </div></a></li>
                   <li><a href="pages/likes.html" class="item-link close-panel">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <!--<div class="item-media"><i class="icon icon-f7"></i></div>-->
                         <div class="item-inner">
                           <div class="item-title">Likes</div>
                         </div>
                       </div></a></li>
                   <li><a href="pages/favorites.html" class="item-link close-panel">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <!--<div class="item-media"><i class="icon icon-f7"></i></div>-->
                         <div class="item-inner">
                           <div class="item-title">Favorites</div>
                         </div>
                       </div></a></li>
-                  <li><a href="pages/settings.html" class="item-link close-panel">
+                  <li><a href="setting.html" class="item-link close-panel">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <!--<div class="item-media"><i class="icon icon-f7"></i></div>-->
                         <div class="item-inner">
                           <div class="item-title">Settings</div>
                         </div>
                       </div></a></li>
                   <li><a href="#" class="item-link close-panel open-login-screen">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <!--<div class="item-media color-red"><i class="icon icon-plus"></i></div>-->
                         <div class="item-inner">
                           <div class="item-title">Logout</div>
                         </div>
                       </div></a></li>
-                  <li><a href="pages/about.html" class="item-link close-panel">
+                  <li><a href="about.html" class="item-link close-panel">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <!--<div class="item-media"><i class="icon icon-f7"></i></div>-->
                         <div class="item-inner">
                           <div class="item-title">About</div>
                         </div>
@@ -111,12 +113,14 @@
                 <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
               </div>
             </div>
-            <div class="page-content">
-				
-				
+            <div class="page-content pull-to-refresh-content">
+				<div class="pull-to-refresh-layer">
+					<div class="preloader"></div>
+					<div class="pull-to-refresh-arrow"></div>
+				</div>
 				
 				<div class="card ks-facebook-card">
-					<div class="card-header no-border">
+					<div class="card-header no-border link">
 						<div class="ks-facebook-avatar"><img src="img/person2.jpg" width="34" height="34"/></div>
 						<div class="ks-facebook-name">John Doe</div>
 						<div class="ks-facebook-date">Monday at 3:47 PM</div>
@@ -138,10 +142,11 @@
 					</div>
 					<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Comment</a><a href="#" class="link">Share</a></div>
 				</div>
-            
-			
 			
             </div>
+			
+			<!--<a href="#" data-popover=".popover-contacts" class="floating-button floating-button-to-popover color-red open-popover"><i class="icon icon-plus"></i></a>-->
+			<a href="#" data-popover=".popover-music" class="floating-button floating-button-to-popover color-red open-popover"><i class="icon icon-plus"></i></a>
             </div>
           </div>
         </div>
@@ -166,7 +171,7 @@
 	<!--MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS-->
 	<!--MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS-->
 	<!--MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS-->
-	</div>
+	
     <div class="popup demo-popup">
       <div class="view navbar-fixed">
         <div class="pages">
@@ -179,18 +184,47 @@
             </div>
             <div class="page-content">
               <div class="content-block">
-                <p>Here comes popup. You can put here anything, even independent view with its own navigation. Also not, that by default popup looks a bit different on iPhone/iPod and iPad, on iPhone it is fullscreen.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus mauris leo, eu bibendum neque congue non. Ut leo mauris, eleifend eu commodo a, egestas ac urna. Maecenas in lacus faucibus, viverra ipsum pulvinar, molestie arcu. Etiam lacinia venenatis dignissim. Suspendisse non nisl semper tellus malesuada suscipit eu et eros. Nulla eu enim quis quam elementum vulputate. Mauris ornare consequat nunc viverra pellentesque. Aenean semper eu massa sit amet aliquam. Integer et neque sed libero mollis elementum at vitae ligula. Vestibulum pharetra sed libero sed porttitor. Suspendisse a faucibus lectus.</p>
-                <p>Duis ut mauris sollicitudin, venenatis nisi sed, luctus ligula. Phasellus blandit nisl ut lorem semper pharetra. Nullam tortor nibh, suscipit in consequat vel, feugiat sed quam. Nam risus libero, auctor vel tristique ac, malesuada ut ante. Sed molestie, est in eleifend sagittis, leo tortor ullamcorper erat, at vulputate eros sapien nec libero. Mauris dapibus laoreet nibh quis bibendum. Fusce dolor sem, suscipit in iaculis id, pharetra at urna. Pellentesque tempor congue massa quis faucibus. Vestibulum nunc eros, convallis blandit dui sit amet, gravida adipiscing libero.</p>
-                <p>Morbi posuere ipsum nisl, accumsan tincidunt nibh lobortis sit amet. Proin felis lorem, dictum vel nulla quis, lobortis dignissim nunc. Pellentesque dapibus urna ut imperdiet mattis. Proin purus diam, accumsan ut mollis ac, vulputate nec metus. Etiam at risus neque. Fusce tincidunt, risus in faucibus lobortis, diam mi blandit nunc, quis molestie dolor tellus ac enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum turpis a velit vestibulum pharetra. Vivamus blandit dapibus cursus. Aenean lorem augue, vehicula in eleifend ut, imperdiet quis felis.</p>
-                <p>Duis non erat vel lacus consectetur ultricies. Sed non velit dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel varius mi, a tristique ante. Vivamus eget nibh ac elit tempor bibendum sit amet vitae velit. Proin sit amet dapibus nunc, non porta tellus. Fusce interdum vulputate imperdiet. Sed faucibus metus at pharetra fringilla. Fusce mattis orci et massa congue, eget dapibus ante rhoncus. Morbi semper sed tellus vel dignissim. Cras vestibulum, sapien in suscipit tincidunt, lectus mi sodales purus, at egestas ligula dui vel erat. Etiam cursus neque eu lectus eleifend accumsan vitae non leo. Aliquam scelerisque nisl sed lacus suscipit, ac consectetur sapien volutpat. Etiam nulla diam, accumsan ut enim vel, hendrerit venenatis sem. Vestibulum convallis justo vitae pharetra consequat. Mauris sollicitudin ac quam non congue.</p>
+                
               </div>
             </div>
           </div>
         </div>
+      </div>	  
+    </div>
+	
+	<div class="popover popover-music">
+      <div class="popover-inner">
+		<div class="list-block inputs-list">
+			<ul>
+				<li>
+					<div class="item-content">
+						<div class="item-inner"> 
+							
+							
+							<div class="item-title floating-label">Hey, what's up?</div>
+							<div class="item-input">
+							<textarea class="resizable" rows="8"></textarea>
+							</div>
+							
+							<br>
+							
+							<div class="card ks-facebook-card">
+							<div class="card-footer">
+								<a href="#" class="link close-popover color-red">Discard</a>
+								<a href="#" class="link color-red">Post</a>
+							</div>
+							</div>
+							
+						</div>
+					</div>
+				</li>
+			</ul>	
+		</div>
       </div>
     </div>
-    <div class="popover popover-menu">
+	
+	
+    <!--<div class="popover popover-menu">
       <div class="popover-inner">
         <div class="list-block">
           <ul>
@@ -204,6 +238,9 @@
         </div>
       </div>
     </div>
+	
+	
+	
     <div class="popover popover-music">
       <div class="popover-inner">
         <div class="list-block media-list">
@@ -236,6 +273,7 @@
         </div>
       </div>
     </div>
+	
     <div class="popover popover-contacts">
       <div class="popover-inner">
         <div class="list-block media-list">
@@ -264,7 +302,7 @@
                 </div>
               </div>
             </li>
-            <li><a href="#" class="item-link item-content bg-purple color-white ripple-white">
+            <li><a href="#" class="item-link item-content bg-red color-white ripple-white">
                 <div class="item-media"><i class="icon ks-icon-edit"></i></div>
                 <div class="item-inner">
                   <div class="item-title-row">
@@ -274,7 +312,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div>-->
 	
 	
 	<!--MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS MODALS-->
@@ -289,10 +327,10 @@
       <div class="view">
         <div class="page">
           <div class="page-content login-screen-content">
-            <div class="login-screen-title"><img src="img/logo.png"><br><h4 class="color-red" style="margin-top: -3%;">POLYGLOT</h4></div>
+            <div class="login-screen-title"><img src="img/logo.png" width="90" height="90"><br><h4 class="color-red" style="margin-top: -1%;">POLYGLOT</h4></div>
 
             <form>
-              <div class="list-block inputs-list">
+              <div class="list-block inputs-list" style="margin-top: -8%;">
                 <ul>
                   <li class="item-content">
                     <div class="item-inner">
@@ -340,5 +378,6 @@
     </div>
     <script type="text/javascript" src="js/framework7.js"></script>
     <script type="text/javascript" src="js/kitchen-sink.js"></script>
+
   </body>
 </html>
